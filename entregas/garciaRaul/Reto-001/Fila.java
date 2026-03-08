@@ -12,7 +12,7 @@ public class Fila {
 
     }
 
-    public void añadirCliente(){
+    public void agregarCliente(){
 
         Random random = new Random();
         int numClientes = random.nextInt(3) + 1;
