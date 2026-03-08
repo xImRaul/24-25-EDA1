@@ -3,8 +3,8 @@ public class ArbolVersiones {
     private NodoVersion versionActual;
 
     public ArbolVersiones() {
-        this.raiz = null;
-        this.versionActual = null;
+        this.raiz;
+        this.versionActual;
     }
 
     public void agregarVersion(int cantidadArchivos) {
