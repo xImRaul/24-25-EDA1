@@ -150,7 +150,7 @@ import java.util.Scanner;
      }
 
      static void setActiveLine(String[] document, int[] activeLine) {
-         boolean validLine = true;
+         boolean validLine;
          do {
              System.out.print("Indique la nueva línea activa: ");
              activeLine[0] = askInt();
